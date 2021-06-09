@@ -35,6 +35,25 @@
   z-index: 999;
 }
 
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.accordion-body {
+  background-color: #eaf6f7;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+
 @media only screen and (max-width: 1023px) {
 .desktop {
   display: none;

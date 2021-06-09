@@ -1,5 +1,5 @@
 .fontepadrao {
-  font-family: 'Montserrat', 'Sans serif';
+  font-size: 1.2em;
 }
 .collapse {
   &:not(.show) {
@@ -11,15 +11,38 @@
   font-size: 1.1em;
 }
 
+.botao-laranja {
+  background-color: #ec5c1c!important;
+  border: #ec5c1c!important;
+}
+.botao-laranja {
+  background-color: #ec5c1c!important;
+}
+
 .collapsing {
   height: 0;
   overflow: hidden;
   @include transition($transition-collapse);
 }
 
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  background-color: #8cc34c;
+  border: #8cc34c;
+  z-index: 999;
+}
+
 @media only screen and (max-width: 1023px) {
 .desktop {
   display: none;
+}
+.menusuperior {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 20px;
 }
 }
 

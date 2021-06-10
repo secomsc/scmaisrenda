@@ -35,6 +35,7 @@
   z-index: 999;
 }
 
+
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
@@ -68,5 +69,16 @@
 @media only screen and (min-width: 1024px) {
 .mobi {
   display: none;
+}
+.nav-link {
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: solid 1px #FFFFFF;
+}
+
+.nav-link:hover {
+  background-color: #EFF8F5;
+  border: solid 1px #64bca4;
 }
 }

@@ -22,6 +22,7 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/features/">
     <link rel="stylesheet" href="static/styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <script src="js/iframeResizer.min.js"></script>
 
     <!-- Bootstrap core CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
@@ -62,14 +63,19 @@
     </nav>
 <div class="b-divider-azul"></div>
 <main>
-  <div class="container px-4 py-5">
+  <div class="container px-2 py-5">
     <div class="texto-consulta">
-    <h2 class="pb-2 border-bottom" style="margin-top:40px;">Consulte seu cadastro</h2>
-    <p class="lead desktop" style="margin-top:40px;">Utilize o formulário ao lado para verificar a situação do seu benefício e o local para a retirada do cartão. A consulta é válida para as famílias registradas no CadÚnico e para os trabalhadores desempregados que fizeram o cadastro. Neste último caso, ainda é possível se cadastrar (<a href="#cadastro">clique aqui</a>) até o dia 30 de setembro.</p>
-    <p class="lead mobi" style="margin-top:40px;">Utilize o formulário abaixo para verificar a situação do seu benefício e o local para a retirada do cartão. A consulta é válida para as famílias registradas no CadÚnico e para os trabalhadores desempregados que fizeram o cadastro. Neste último caso, ainda é possível se cadastrar (<a href="#cadastro">clique aqui</a>) até o dia 30 de setembro.</p>
+      <h2 class="pb-2 border-bottom">Consulte seu cadastro</h2>
+      <p class="lead">Utilize o formulário abaixo para verificar a situação do seu benefício e o local para a retirada do cartão. A consulta é válida para as famílias registradas no CadÚnico e para os trabalhadores desempregados que fizeram o cadastro. Neste último caso, ainda é possível se cadastrar (<a href="#cadastro">clique aqui</a>) até o dia 30 de setembro.</p>
     </div>
-    <iframe src="http://prestadores-hom.intranet.ciasc.gov.br/SolicitacaoAuxilioEmergencial/consulta-cadastro" frameborder="0" scrolling="no" class="consulta"></iframe>
+  <div class="rounded-3">
+   <iframe id="consulta" src="http://prestadores-hom.intranet.ciasc.gov.br/SolicitacaoAuxilioEmergencial/consulta-cadastro"></iframe>
+    <script>
+      iFrameResize({ log: true }, '#consulta')
+    </script>
   </div>
+</div>
+
 
   <div class="b-divider-azul"></div>
   <div class="container px-4 py-5" id="hanging-icons">

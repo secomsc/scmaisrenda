@@ -7,6 +7,11 @@
   }
 }
 
+iframe {
+  width: 1px;
+  min-width: 100%;
+  min-height: 500px;
+}
 .menusuperior {
   font-size: 1.1em;
 }
@@ -67,7 +72,11 @@
 }
 .consulta {
   width: 100%;
-  height: 600px;
+}
+.texto-consulta {
+  width: 90%;
+  text-align: center;
+  margin-left: 5%;
 }
 }
 
@@ -75,15 +84,16 @@
 .mobi {
   display: none;
 }
+
 .texto-consulta {
-  width: 45%;
-  float: left;
-  height: 600px;
-  margin: auto;
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+  max-width: 1080px;
+  margin-bottom: -10px;
 }
 .consulta {
   width: 48%;
-  height: 550px;
 }
 .nav-link {
   margin-left: 10px;

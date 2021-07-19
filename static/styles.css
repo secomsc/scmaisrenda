@@ -52,6 +52,7 @@
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
   }
+
 }
 
 
@@ -64,11 +65,25 @@
   padding-bottom: 20px;
   margin-left: 20px;
 }
+.consulta {
+  width: 100%;
+  height: 600px;
+}
 }
 
 @media only screen and (min-width: 1024px) {
 .mobi {
   display: none;
+}
+.texto-consulta {
+  width: 45%;
+  float: left;
+  height: 600px;
+  margin: auto;
+}
+.consulta {
+  width: 48%;
+  height: 550px;
 }
 .nav-link {
   margin-left: 10px;

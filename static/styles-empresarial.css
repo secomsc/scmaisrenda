@@ -7,11 +7,6 @@
   }
 }
 
-iframe {
-  width: 1px;
-  min-width: 100%;
-  min-height: 500px;
-}
 .menusuperior {
   font-size: 1.1em;
 }
@@ -20,8 +15,10 @@ iframe {
   background-color: #ec5c1c!important;
   border: #ec5c1c!important;
 }
-.botao-laranja {
-  background-color: #ec5c1c!important;
+
+.botao-empresarial {
+  background-color: #274b8f!important;
+  border: #274b8f!important;
 }
 
 .collapsing {
@@ -57,61 +54,41 @@ iframe {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
   }
-
 }
 
 
 @media only screen and (max-width: 1023px) {
-  .desktop {
-    display: none;
-  }
-
-  .iframe {
-    min-height: 600px;
-  }
-
-  .menusuperior {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-left: 20px;
-  }
-
-  .consulta {
-    width: 100%;
-  }
-
-  .texto-consulta {
-    width: 90%;
-    text-align: center;
-    margin-left: 5%;
-    margin-bottom: -10px;
-  }
+.desktop {
+  display: none;
+}
+.menusuperior {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 20px;
+}
+azul {
+  font-size: 3em;
+}
+.bg-setas {
+  background: none;
+}
 }
 
+
+
 @media only screen and (min-width: 1024px) {
-  .mobi {
-    display: none;
-  }
+.mobi {
+  display: none;
+}
+.nav-link {
+  margin-left: 10px;
+  margin-right: 10px;
+  border: solid 1px #FFFFFF;
+}
 
-  .texto-consulta {
-    width: 80%;
-    text-align: center;
-    margin-left: 10%;
-    max-width: 1080px;
-    margin-bottom: -10px;
-  }
-  .consulta {
-    width: 48%;
-  }
-  .nav-link {
-    margin-left: 10px;
-    margin-right: 10px;
-    border: solid 1px #FFFFFF;
-  }
-
-  .nav-link:hover {
-    border-bottom: solid 1px #64bca4;
-  }
+.nav-link:hover {
+  border-bottom: solid 1px #64bca4;
+}
 }
 
 .b-divider {
@@ -128,6 +105,20 @@ iframe {
   border: solid rgba(100, 188, 164, .9);
   border-width: 1px 0;
   box-shadow: inset 0 .5em 1.5em rgba(100, 188, 164, .6), inset 0 .125em .5em rgba(100, 188, 164, .9);
+}
+
+.b-divider-empresarial {
+  height: 2rem;
+  background-color: rgba(39, 75, 143, .6);
+  border: solid rgba(39, 75, 143, .9);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(39, 75, 143, .6), inset 0 .125em .5em rgba(39, 75, 143, .9);
+}
+
+azul {
+  font-size: 5em;
+  color: #274b8f;
+  font-weight: bold;
 }
 
 .b-divider-maior {

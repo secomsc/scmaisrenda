@@ -51,7 +51,6 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav menusuperior">
           <a class="nav-item nav-link" href="https://www.sc.gov.br/scmaisrenda">Início</span></a>
-          <a class="nav-item nav-link" href="#cadastro">Cadastro</span></a>
           <a class="nav-item nav-link" href="#passoapasso">Passo a passo</a>
           <a class="nav-item nav-link" href="#atendimento">Atendimento</a>
           <a class="nav-item nav-link" href="#duvidas">Tire suas dúvidas</a>
@@ -66,7 +65,7 @@
   <div class="container px-2 py-5">
     <div class="texto-consulta">
       <h2 class="pb-2 border-bottom">Consulte seu cadastro</h2>
-      <p class="lead">Utilize o formulário abaixo para verificar a situação do seu benefício e o local para a retirada do cartão. A consulta é válida para as famílias registradas no CadÚnico e para os trabalhadores desempregados que fizeram o cadastro.</p>
+      <p class="lead">Utilize o formulário abaixo para verificar a situação do seu benefício e o local para a retirada do cartão. A consulta é válida para as famílias registradas no CadÚnico e para os trabalhadores desempregados que fizeram o cadastro.<br><b>O prazo está encerrado para novos cadastros.</b></p>
     </div>
   <div class="rounded-3">
    <iframe id="iframe-consulta" src="https://www.sc.gov.br/scmaisrenda-cadastro/consulta-cadastro"></iframe>
@@ -89,7 +88,7 @@
           <h2>Famílias no CadÚnico</h2>
           <p>Famílias inscritas no Cadastro Único até o dia 9 de junho de 2021 e que estão em situação de pobreza ou extrema pobreza e não receberam o benefício do Programa Bolsa Família e nem auxílio emergencial federal. <b>Famílias já registradas no CadÚnico <u>não</u> precisam fazer novo cadastro. Se tem dúvidas sobre se está ou não, é possível <a href="https://meucadunico.cidadania.gov.br/meu_cadunico/index.php" target="a_blank">verificar aqui</a>.</b></p>
           <p>
-            <button class="btn btn-outline-dark" type="button" data-bs-toggle="collapse" data-bs-target="#familias" aria-expanded="false" aria-controls="familias">
+            <button class="btn btn-outline-dark" data-container="body" type="button" data-bs-toggle="collapse" data-bs-target="#familias" aria-expanded="false" aria-controls="familias">
               <b>Confira os requisitos</b>
             </button>
           </p>
@@ -137,7 +136,7 @@
         <img src="img/2.png" height="80">
         <div>
           <h2>Trabalhadores que perderam o emprego na pandemia</h2>
-          <p>Trabalhadores que perderam o vínculo formal de emprego entre 19 de março de 2020 e 1º de maio de 2021, em empresa de algum dos setores contemplados pelo SC Mais Renda. <b>Devem realizar o cadastro para ter acesso ao benefício.</b></p>
+          <p>Trabalhadores que perderam o vínculo formal de emprego entre 19 de março de 2020 e 1º de maio de 2021, em empresa de algum dos setores contemplados pelo SC Mais Renda.</b></p>
           <p>
             <button class="btn btn-outline-dark" type="button" data-bs-toggle="collapse" data-bs-target="#trabalhadores" aria-expanded="false" aria-controls="trabalhadores">
               <b>Veja a lista de setores e requisitos</b>
@@ -207,28 +206,7 @@
       </div>
     </div>
   </div>
-  <div class="b-divider-azul" id="cadastro"></div>
 
-  <div class="container col-xxl-8 px-4 py-5">
-    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-      <div class="col-lg-6">
-        <div class="col-10 col-sm-8 col-lg-6 mobi">
-          <img src="img/renda2.png" class="d-block mx-lg-auto img-fluid mobi" style="margin-bottom:50px;margin-top:0;" alt="SC Mais Renda" width="100%" loading="lazy">
-        </div>
-        <h1 class="display-5 fw-bold lh-1 mb-3">Cadastre-se agora</h1>
-        <span class="badge bg-warning">Até 30/09/2021</span>
-        <p class="lead">Trabalhadores que perderam vínculo formal de emprego entre 19 de março de 2020 e 1º de maio de 2021 em empresa dos setores contemplados pelo SC Mais Renda devem se cadastrar.</p>
-        <p><b>As famílias que estão registradas no Cadastro Único (CadÚnico) não necessitam fazer novo cadastro. Se tem dúvidas sobre se está no CadÚnico ou não, é possível <a href="https://meucadunico.cidadania.gov.br/meu_cadunico/index.php" target="a_blank">verificar aqui</a></b>.</p>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-          <a href="https://sc.gov.br/servicos/detalhe/solicitar-auxilio-emergencial-sc-mais-renda" target="a_blank"><button type="button" class="btn btn-primary botao-laranja btn-lg px-4">Cadastre-se aqui</button></a>
-          <a href="#duvidas"><button type="button" class="btn btn-outline-secondary btn-lg px-4">Tire suas dúvidas</button></a>
-        </div>
-      </div>
-      <div class="col-10 col-sm-8 col-lg-6 desktop">
-        <img src="img/principal.png" class="d-block mx-lg-auto img-fluid desktop" alt="SC Mais Renda" width="450px" loading="lazy">
-      </div>
-    </div>
-  </div>
   <div class="b-divider-azul" id="atendimento"></div>
   <div class="container px-4 py-5" id="featured-3">
     <h2 class="pb-2 border-bottom" style="text-align:center;">Mais informações</h2>
@@ -262,20 +240,20 @@
     <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
       <div class="feature col">
         <img src="img/a.png" height="100">
-        <h2>Faça o cadastro</h2>
-        <span class="badge bg-success">Cadastro aberto</span>
-        <p>Trabalhadores que perderam vínculo formal de emprego entre 19 de março de 2020 e 1º de maio de 2021 em empresa dos setores contemplados pelo SC Mais Renda devem realizar o cadastro até o dia 30 de setembro de 2021. <a href="https://sc.gov.br/servicos/detalhe/solicitar-auxilio-emergencial-sc-mais-renda" target="a_blank">Crie aqui seu cadastro</a>.</p></div>
+        <h2>Cadastro</h2>
+        <span class="badge bg-danger">Encerrado</span>
+        <p>Trabalhadores que perderam vínculo formal de emprego entre 19 de março de 2020 e 1º de maio de 2021 em empresa dos setores contemplados pelo SC Mais Renda devem realizar o cadastro até o dia 30 de setembro de 2021.</p></div>
       <div class="feature col">
         <img src="img/b.png" height="100">
         <h2>Retire o cartão</h2>
         <span class="badge bg-warning">A partir de 27/07/2021</span>
-        <p>Após a aprovação do cadastro, será disponibilizado um cartão com o crédito para utilização do benefício em redes conveniadas. O local e a disponibilidade para retirada do cartão, bem como o resultado da avaliação do benefício, podem ser <a href="#consulta">conferidos aqui</a>.</p>
+        <p>Após a aprovação do cadastro, é disponibilizado um cartão com o crédito para utilização do benefício em redes conveniadas. O local e a disponibilidade para retirada do cartão, bem como o resultado da avaliação do benefício, podem ser <a href="#consulta">conferidos aqui</a>.</p>
       </div>
       <div class="feature col">
         <img src="img/c.png" height="100">
         <h2>Use o benefício</h2>
         <span class="badge bg-warning">A partir de 27/07/2021</span>
-        <p>Será possível usar o cartão em locais como supermercados, mercearias, padarias, quitandas, açougues, farmácias, restaurantes, papelarias, livrarias e postos de combustíveis, em estabelecimentos credenciados à rede Alelo.</p>
+        <p>É possível usar o cartão em locais como supermercados, mercearias, padarias, quitandas, açougues, farmácias, restaurantes, papelarias, livrarias e postos de combustíveis, em estabelecimentos credenciados à rede Alelo.</p>
       </div>
     </div>
   </div>
@@ -329,7 +307,7 @@
               <li><b>Não</b> terem recebido o auxílio emergencial federal.</li>
             </ul>
 
-            <p>2 - <b>Trabalhadores que perderam o vínculo formal de emprego</b> entre 19 de março de 2020 e 1º de maio de 2021, em empresa de algum dos setores contemplados pelo SC Mais Renda. <b>Estes devem realizar o cadastro para ter acesso ao benefício.</b></p>
+            <p>2 - <b>Trabalhadores que perderam o vínculo formal de emprego</b> entre 19 de março de 2020 e 1º de maio de 2021, em empresa de algum dos setores contemplados pelo SC Mais Renda. <b>Estes devem realizar o cadastro até 30 de setembro de 2021 para ter acesso ao benefício.</b></p>
 
             <p>O benefício é válido para trabalhadores dos seguintes setores:</p>
             <ol type="a">
@@ -369,7 +347,7 @@
         </h2>
         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree">
           <div class="accordion-body">
-            Para os trabalhadores que perderam o emprego e se enquadram nos requisitos para receber o benefício (vide pergunta 2), o cadastro deve ser feito <b><a href="https://sc.gov.br/servicos/detalhe/solicitar-auxilio-emergencial-sc-mais-renda" target="a_blank">clicando aqui</a></b>. Famílias registradas no CadÚnico até o dia 9 de junho de 2021 não precisam fazer este cadastro. Para verificar, consulte o Centro de Referência da Assistência Social (CRAS) do seu município ou <a href="https://meucadunico.cidadania.gov.br/meu_cadunico/index.php" target="a_blank"><b>verifique aqui</b></a>.
+            Para os trabalhadores que perderam o emprego e se enquadram nos requisitos para receber o benefício (vide pergunta 2), o cadastro deve ser feito até o dia 30 de setembro de 2021. Famílias registradas no CadÚnico até o dia 9 de junho de 2021 não precisam fazer este cadastro. Para verificar, consulte o Centro de Referência da Assistência Social (CRAS) do seu município ou <a href="https://meucadunico.cidadania.gov.br/meu_cadunico/index.php" target="a_blank"><b>verifique aqui</b></a>.
             <ol type="1" style="margin-top: 10px;">
               <li>Possuir cadastro na plataforma <a href="https://www.gov.br" target="a_blank">www.gov.br</a></li>
               <li>Clicar no botão SOLICITAR</li>
@@ -405,7 +383,7 @@
         </h2>
         <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive">
           <div class="accordion-body">
-            Apenas se você for um trabalhador que perdeu o vínculo formal de emprego entre 19 de março de 2020 e 1º de maio de 2021, em empresa de algum dos setores contemplados pelo SC Mais Renda (veja questão 4). O prazo para inscrição termina em 30 de setembro. No caso dos beneficiários do CadÚnico o prazo já está encerrado porque a legislação estadual determinou que apenas os inscritos até o dia 9 de junho serão contemplados.
+            Não. O último dia para realizar o cadastro era 30 de setembro de 2021.
           </div>
         </div>
       </div>
